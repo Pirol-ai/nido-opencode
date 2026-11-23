@@ -1,0 +1,15 @@
+{
+  "name": "nido-opencode",
+  "version": "0.1.0",
+  "description": "Let OpenCode create and use Pirol sandboxes — small virtual machines in the EU, CPU or with a GPU — through the nido command line on your computer.",
+  "type": "module",
+  "exports": {
+    "./server": "./server.js"
+  },
+  "files": ["server.js", "skills/"],
+  "keywords": ["opencode", "opencode-plugin", "nido", "pirol", "sandbox", "gpu"],
+  "homepage": "https://pirol.ai/docs/sandboxes",
+  "repository": "github:Pirol-ai/nido-opencode",
+  "license": "MIT",
+  "author": "Pirol Labs (https://pirol.ai)"
+}
